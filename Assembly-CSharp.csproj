@@ -83,6 +83,7 @@
     <Compile Include="Assets\VRShooting\_Complete-Game\Scripts\Player\PlayerShooting.cs" />
     <Compile Include="Assets\VRShooting\Scripts\CameraRotator.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Example.cs" />
+    <Compile Include="Assets\VRShooting\Scripts\Shooter.cs" />
     <None Include="Assets\SurvivalShooter_Third-PartyNotice.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/user224/2019UnityProject/VRShooting_2019-10-31/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
