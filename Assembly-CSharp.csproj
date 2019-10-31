@@ -81,6 +81,7 @@
     <Compile Include="Assets\VRShooting\_Complete-Game\Scripts\Player\PlayerHealth.cs" />
     <Compile Include="Assets\VRShooting\_Complete-Game\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\VRShooting\_Complete-Game\Scripts\Player\PlayerShooting.cs" />
+    <Compile Include="Assets\VRShooting\Scripts\AutoDestroy.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Bullet.cs" />
     <Compile Include="Assets\VRShooting\Scripts\CameraRotator.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Example.cs" />
