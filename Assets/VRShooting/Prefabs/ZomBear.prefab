@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6071741443330341865}
   - component: {fileID: 6071741443325553281}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Zombear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,8 @@ GameObject:
   - component: {fileID: 6071741443321238593}
   - component: {fileID: 1993466216705385675}
   - component: {fileID: 1353456963491409646}
-  m_Layer: 0
+  - component: {fileID: 114522888748953814}
+  m_Layer: 14
   m_Name: ZomBear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,3 +165,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114522888748953814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6071741443330762699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8f2a41a2433d994ab3fea89e031999e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
