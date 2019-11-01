@@ -8,6 +8,8 @@ public class Bullet : MonoBehaviour
 
     [SerializeField] float speed = 20f; //弾速 [m/s]
 
+    [SerializeField] ParticleSystem hitParticlePrefab; //　着弾時演出プレハブ
+
     // Use this initialization               Start is called before the first frame update
     void Start()
     {
@@ -33,6 +35,9 @@ public class Bullet : MonoBehaviour
         {
             //　衝突時に"OnHitBullet"メッセージ
             other.SendMessage("OnHitBullet");
+
+            //　着弾地点に演出自動再生のゲームオブジェクトを生成
+            Instantiate(hitParticlePrefab, transform.position, transform.rotation);
 
             //　自身のゲームオブジェクトを破壊
             Destroy(gameObject);
