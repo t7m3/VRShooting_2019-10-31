@@ -88,8 +88,10 @@
     <Compile Include="Assets\VRShooting\Scripts\Bullet.cs" />
     <Compile Include="Assets\VRShooting\Scripts\CameraRotator.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Enemy.cs" />
+    <Compile Include="Assets\VRShooting\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Example.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Shooter.cs" />
+    <Compile Include="Assets\VRShooting\Scripts\SpawnController.cs" />
     <None Include="Assets\SurvivalShooter_Third-PartyNotice.txt" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/NJC-T1/2019UnityProjects/VRShooting_2019-10-31/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
