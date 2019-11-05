@@ -8,6 +8,8 @@ public class Shooter : MonoBehaviour
     [SerializeField] Transform gunBarrelEnd; //銃口（弾の発射位置）
 
     [SerializeField] ParticleSystem gunParticle; //　発射時演出
+    [SerializeField] AudioSource gunAudioSource; //　発射音の音源
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,5 +32,9 @@ public class Shooter : MonoBehaviour
 
         //　発射時演出を再生
         gunParticle.Play();
+
+        //　発射時の音を再生
+        gunAudioSource.Play();
+
     }
 }

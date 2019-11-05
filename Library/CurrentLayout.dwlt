@@ -113,7 +113,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 1
-  controlID: 121
+  controlID: 108
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -138,7 +138,7 @@ MonoBehaviour:
   m_MinSize: {x: 681, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
-  controlID: 122
+  controlID: 109
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -408,9 +408,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 8a290000
-      m_LastClickedID: 0
-      m_ExpandedIDs: d6fbffff
+      m_SelectedIDs: b4fbffff
+      m_LastClickedID: -1100
+      m_ExpandedIDs: b4fbffffd6fbffff1c2b0000262b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -621,20 +621,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/VRShooting/Prefabs
+    - Assets/VRShooting/Scripts
   m_ViewMode: 1
   m_StartGridSize: 77
   m_LastFolders:
-  - Assets/VRShooting/Prefabs
+  - Assets/VRShooting/Scripts
   m_LastFoldersGridSize: 77
   m_LastProjectPath: C:\Users\NJC-T1\2019UnityProjects\VRShooting_2019-10-31
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 6a2a0000
-    m_LastClickedID: 10858
-    m_ExpandedIDs: 000000007c2600007627000000ca9a3b
+    scrollPos: {x: 0, y: 40}
+    m_SelectedIDs: 98260000
+    m_LastClickedID: 9880
+    m_ExpandedIDs: 000000007c26000076270000b027000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
