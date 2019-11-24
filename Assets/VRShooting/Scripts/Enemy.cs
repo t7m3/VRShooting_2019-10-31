@@ -14,6 +14,9 @@ public class Enemy : MonoBehaviour
 
     AudioSource audioSource; //　再生に使用するAudioSource
 
+    [SerializeField] int point = 1;  // 倒したときのスコアポイント
+    Score score;  // スコア
+
     // Start is called before the first frame update
     void Start()
     {
@@ -22,6 +25,11 @@ public class Enemy : MonoBehaviour
 
         //　出現時の音を再生
         audioSource.PlayOneShot(spawnClip);
+
+        // ゲームオブジェクトを検索
+        var gameObj = GameObject.FindWithTag("Score");
+        // gameObjに含まれるScoreコンポーネントを取得
+        score = gameObj.GetComponent<Score>();
         
     }
 
@@ -46,6 +54,9 @@ public class Enemy : MonoBehaviour
     //　死亡時処理
     void GoDown()
     {
+        // スコアを加算
+        score.AddScore(point);
+
         //　当たり判定と表示を消す
         enemyCollider.enabled = false;
         enemyRenderer.enabled = false;

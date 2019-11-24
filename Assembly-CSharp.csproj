@@ -88,6 +88,7 @@
     <Compile Include="Assets\VRShooting\Scripts\EnemySpawner.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Example.cs" />
     <Compile Include="Assets\VRShooting\Scripts\RemainTimer.cs" />
+    <Compile Include="Assets\VRShooting\Scripts\Score.cs" />
     <Compile Include="Assets\VRShooting\Scripts\Shooter.cs" />
     <Compile Include="Assets\VRShooting\Scripts\SpawnController.cs" />
     <None Include="Assets\SurvivalShooter_Third-PartyNotice.txt" />
